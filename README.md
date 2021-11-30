@@ -1,1 +1,1 @@
-# Lotto-Projekt
+# Lottó Projekt
