@@ -1,3 +1,1 @@
-## Csapattagok:
-- Kerekes István
-- Zick Balázs
+# Lottó Projekt
