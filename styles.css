@@ -4,17 +4,20 @@ body{
 nav{
     float:left;
     background-color:#424242;
-    height: 100vh;
+    min-height: 100vh; /*így nincsen zoom bug*/
     color:#efefef;
+    min-width: 35vh;
+    max-width: 35vh;
 }
 nav a{
     text-decoration: none;
     color:#efefef;
     margin-left: 8%;
+    font-size: 12pt;
 }
 nav img{
-    width: 400px;
     margin-bottom: 10px;
+    width: 100%;
 }
 hr{
     width: 90%;
@@ -28,4 +31,21 @@ h1, h2{
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
+}
+article {
+    margin-left: 45vh;
+    padding-top: 10vh;
+    min-width: 65vh;
+}
+article img{
+    max-height: 125px;
+}
+article h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+@media only screen and (max-width:800px){
+    article img{
+        max-height: 75px;
+    }
 }
